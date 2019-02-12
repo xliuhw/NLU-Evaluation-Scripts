@@ -1,0 +1,2131 @@
+{
+    "results": [
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.9818593152817493, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9818593152817493, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.0027611188844408495, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.001421941267122529, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.0012263260561353934, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.001049817181405427, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.0007430273576461282, 
+                    "name": "qa_factoid"
+                }, 
+                {
+                    "confidence": 0.0006587416000412818, 
+                    "name": "email_querycontact"
+                }, 
+                {
+                    "confidence": 0.0005714389486565148, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.00048712494130189046, 
+                    "name": "music_likeness"
+                }, 
+                {
+                    "confidence": 0.0004495641885579118, 
+                    "name": "takeaway_query"
+                }
+            ], 
+            "text": "what alarms did i set"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 36, 
+                    "entity": "timeofday", 
+                    "extractor": "ner_crf", 
+                    "start": 29, 
+                    "value": "morning"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.9315524048964918, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9315524048964918, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.012865700451472166, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.01249769934393564, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.003992519623448815, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.0037523406130180103, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.003248600737002552, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.0025784966962032543, 
+                    "name": "weather_query"
+                }, 
+                {
+                    "confidence": 0.0019350931627760376, 
+                    "name": "recommendation_events"
+                }, 
+                {
+                    "confidence": 0.0014361899542892542, 
+                    "name": "calendar_remove"
+                }, 
+                {
+                    "confidence": 0.0013540198348457417, 
+                    "name": "iot_hue_lightchange"
+                }
+            ], 
+            "text": "have i set any alarms in the morning"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.8837262177280235, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.8837262177280235, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.018125139551993286, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.008939049470377608, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.008296336241885034, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.006334807129880092, 
+                    "name": "takeaway_query"
+                }, 
+                {
+                    "confidence": 0.005659451993568364, 
+                    "name": "weather_query"
+                }, 
+                {
+                    "confidence": 0.004003125009679972, 
+                    "name": "email_querycontact"
+                }, 
+                {
+                    "confidence": 0.003933228863760013, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.0036545394763050293, 
+                    "name": "transport_traffic"
+                }, 
+                {
+                    "confidence": 0.0030823277388703114, 
+                    "name": "social_query"
+                }
+            ], 
+            "text": "which alarms do i have"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.9776683355605363, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9776683355605363, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.0023089123826259533, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.002032625163559983, 
+                    "name": "qa_factoid"
+                }, 
+                {
+                    "confidence": 0.0015791983553700593, 
+                    "name": "cooking_recipe"
+                }, 
+                {
+                    "confidence": 0.001352096152443019, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.0011862682122412698, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.0010105400787008693, 
+                    "name": "iot_hue_lightchange"
+                }, 
+                {
+                    "confidence": 0.000775309222981623, 
+                    "name": "qa_definition"
+                }, 
+                {
+                    "confidence": 0.0007474434892575704, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.0006971806206916881, 
+                    "name": "lists_query"
+                }
+            ], 
+            "text": "what alarms are set"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 34, 
+                    "entity": "date", 
+                    "extractor": "ner_crf", 
+                    "start": 29, 
+                    "value": "today"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.9104627899489387, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9104627899489387, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.01753309274883043, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.012590965518756799, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.005687193109329548, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.005683323066205103, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.003737287173479395, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.0026038259002558, 
+                    "name": "iot_hue_lightchange"
+                }, 
+                {
+                    "confidence": 0.0025351654185870836, 
+                    "name": "weather_query"
+                }, 
+                {
+                    "confidence": 0.001728805067317653, 
+                    "name": "social_query"
+                }, 
+                {
+                    "confidence": 0.001706219262194183, 
+                    "name": "play_game"
+                }
+            ], 
+            "text": "what alarm do i have set for today"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.8706916528705613, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.8706916528705613, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.01922908612706712, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.01738438345141208, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.012787865508904948, 
+                    "name": "lists_createoradd"
+                }, 
+                {
+                    "confidence": 0.007826046233153668, 
+                    "name": "lists_remove"
+                }, 
+                {
+                    "confidence": 0.005415351352534382, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.005405132770611342, 
+                    "name": "social_query"
+                }, 
+                {
+                    "confidence": 0.005078596825124398, 
+                    "name": "music_likeness"
+                }, 
+                {
+                    "confidence": 0.0036303706612830487, 
+                    "name": "email_query"
+                }, 
+                {
+                    "confidence": 0.0033512850121895465, 
+                    "name": "email_querycontact"
+                }
+            ], 
+            "text": "list all of my alarms"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.9137106743351278, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9137106743351278, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.06382976586000712, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.0029734553328817958, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.0020868211763714955, 
+                    "name": "datetime_query"
+                }, 
+                {
+                    "confidence": 0.0016499676003957438, 
+                    "name": "datetime_convert"
+                }, 
+                {
+                    "confidence": 0.0013786400694233937, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.0009502784535180945, 
+                    "name": "transport_taxi"
+                }, 
+                {
+                    "confidence": 0.0008821421003406548, 
+                    "name": "takeaway_query"
+                }, 
+                {
+                    "confidence": 0.0008682693759509069, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.0007119935006168534, 
+                    "name": "calendar_query"
+                }
+            ], 
+            "text": "at what time is my alarm set"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 38, 
+                    "entity": "date", 
+                    "extractor": "ner_crf", 
+                    "start": 33, 
+                    "value": "today"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.9432447219260246, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9432447219260246, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.009744966326041486, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.009401687664484026, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.0035714058692961344, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.0022265224780620807, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.002143743137284809, 
+                    "name": "social_query"
+                }, 
+                {
+                    "confidence": 0.0021393952899747704, 
+                    "name": "news_query"
+                }, 
+                {
+                    "confidence": 0.002106013864256285, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.0019765518511386986, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.0019401009955942114, 
+                    "name": "qa_factoid"
+                }
+            ], 
+            "text": "let me know about any alarms set today"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.9209227143664169, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9209227143664169, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.013751147056143005, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.010345022023747595, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.0060227976374965745, 
+                    "name": "social_query"
+                }, 
+                {
+                    "confidence": 0.005934607505484184, 
+                    "name": "lists_createoradd"
+                }, 
+                {
+                    "confidence": 0.0047985794368951475, 
+                    "name": "news_query"
+                }, 
+                {
+                    "confidence": 0.003909677004714176, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.003661758420084555, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.002341680367446195, 
+                    "name": "recommendation_events"
+                }, 
+                {
+                    "confidence": 0.0021820532332085694, 
+                    "name": "lists_remove"
+                }
+            ], 
+            "text": "list all of my upcoming alarms"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.7567199558070453, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.7567199558070453, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.051118117897727196, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.018137228109458288, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.011927410010923721, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.0089845694337211, 
+                    "name": "social_post"
+                }, 
+                {
+                    "confidence": 0.008681446288534195, 
+                    "name": "email_sendemail"
+                }, 
+                {
+                    "confidence": 0.008589481340635368, 
+                    "name": "email_querycontact"
+                }, 
+                {
+                    "confidence": 0.007399425549184667, 
+                    "name": "transport_traffic"
+                }, 
+                {
+                    "confidence": 0.006923176008651523, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.005036725937157731, 
+                    "name": "iot_hue_lightup"
+                }
+            ], 
+            "text": "would like to know the alarm you sent"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.9534960708255078, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9534960708255078, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.008291663199031012, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.003031149183307742, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.002835955480235557, 
+                    "name": "social_post"
+                }, 
+                {
+                    "confidence": 0.0023993576593081397, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.002214680971862314, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.0019316356919445656, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.0018752763924072963, 
+                    "name": "takeaway_query"
+                }, 
+                {
+                    "confidence": 0.001787124090294546, 
+                    "name": "lists_remove"
+                }, 
+                {
+                    "confidence": 0.0016920527749492704, 
+                    "name": "iot_coffee"
+                }
+            ], 
+            "text": "have i got any alarms set"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 52, 
+                    "entity": "date", 
+                    "extractor": "ner_crf", 
+                    "start": 44, 
+                    "value": "tomorrow"
+                }, 
+                {
+                    "end": 60, 
+                    "entity": "timeofday", 
+                    "extractor": "ner_crf", 
+                    "start": 53, 
+                    "value": "morning"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.9608042262679314, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9608042262679314, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.00966656203931875, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.0049326454981577965, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.002250120176405721, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.0020479341107937773, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.0019636139289425096, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.0013787855190680871, 
+                    "name": "weather_query"
+                }, 
+                {
+                    "confidence": 0.0010464999129466616, 
+                    "name": "datetime_query"
+                }, 
+                {
+                    "confidence": 0.0009173798504372342, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.0007398476484916051, 
+                    "name": "recommendation_events"
+                }
+            ], 
+            "text": "see see for me the alarms that you have set tomorrow morning"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.8682824880034089, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.8682824880034089, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.014500333582920705, 
+                    "name": "email_querycontact"
+                }, 
+                {
+                    "confidence": 0.010227921491022368, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.009585057056670161, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.007859481506805911, 
+                    "name": "social_query"
+                }, 
+                {
+                    "confidence": 0.007608568147695859, 
+                    "name": "iot_coffee"
+                }, 
+                {
+                    "confidence": 0.006699335270264705, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.005839502749505374, 
+                    "name": "email_query"
+                }, 
+                {
+                    "confidence": 0.0052275973278012745, 
+                    "name": "social_post"
+                }, 
+                {
+                    "confidence": 0.004681513610700635, 
+                    "name": "calendar_set"
+                }
+            ], 
+            "text": "please read me my alarms"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 30, 
+                    "entity": "timeofday", 
+                    "extractor": "ner_crf", 
+                    "start": 23, 
+                    "value": "morning"
+                }, 
+                {
+                    "end": 54, 
+                    "entity": "date", 
+                    "extractor": "ner_crf", 
+                    "start": 46, 
+                    "value": "weekdays"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.6042528928089256, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.6042528928089256, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.2560049420266283, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.02962639387368947, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.01318736140039416, 
+                    "name": "audio_volume_mute"
+                }, 
+                {
+                    "confidence": 0.012213602350313907, 
+                    "name": "datetime_query"
+                }, 
+                {
+                    "confidence": 0.00928582434341784, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.00571664798817358, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.0033775148222102516, 
+                    "name": "transport_taxi"
+                }, 
+                {
+                    "confidence": 0.002942005135459238, 
+                    "name": "weather_query"
+                }, 
+                {
+                    "confidence": 0.0028424370972442124, 
+                    "name": "calendar_query"
+                }
+            ], 
+            "text": "please let me know the morning alarm time for weekdays"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 32, 
+                    "entity": "time", 
+                    "extractor": "ner_crf", 
+                    "start": 26, 
+                    "value": "six am"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.5050280275485219, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.5050280275485219, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.40913565149004716, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.04080597448765995, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.004996612792791514, 
+                    "name": "transport_taxi"
+                }, 
+                {
+                    "confidence": 0.003007289476707348, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.002467480829199251, 
+                    "name": "audio_volume_mute"
+                }, 
+                {
+                    "confidence": 0.0022333458228403135, 
+                    "name": "datetime_convert"
+                }, 
+                {
+                    "confidence": 0.0017680408480704813, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.0016383915341321585, 
+                    "name": "iot_hue_lightchange"
+                }, 
+                {
+                    "confidence": 0.0015001323948185274, 
+                    "name": "takeaway_order"
+                }
+            ], 
+            "text": "check if alarm is set for six am"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 23, 
+                    "entity": "podcast_descriptor", 
+                    "extractor": "ner_crf", 
+                    "start": 13, 
+                    "value": "next three"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.8581961098221459, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.8581961098221459, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.03338339952193421, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.007745020958798184, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.006570900625210887, 
+                    "name": "play_audiobook"
+                }, 
+                {
+                    "confidence": 0.00593677746496861, 
+                    "name": "iot_hue_lightoff"
+                }, 
+                {
+                    "confidence": 0.005906194191603692, 
+                    "name": "play_podcasts"
+                }, 
+                {
+                    "confidence": 0.005314809949349274, 
+                    "name": "transport_traffic"
+                }, 
+                {
+                    "confidence": 0.00491018661519822, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.004079959763566177, 
+                    "name": "lists_remove"
+                }, 
+                {
+                    "confidence": 0.003865234780495145, 
+                    "name": "qa_factoid"
+                }
+            ], 
+            "text": "what are the next three alarms set to go off"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.9466344501635446, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9466344501635446, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.009133673870402346, 
+                    "name": "news_query"
+                }, 
+                {
+                    "confidence": 0.005577959957260236, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.004729734472803795, 
+                    "name": "email_querycontact"
+                }, 
+                {
+                    "confidence": 0.0037617564109334108, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.003539956692222745, 
+                    "name": "social_query"
+                }, 
+                {
+                    "confidence": 0.0032556972595489497, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.0028676560925557848, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.0028463408192521233, 
+                    "name": "play_podcasts"
+                }, 
+                {
+                    "confidence": 0.0026123716322429625, 
+                    "name": "qa_factoid"
+                }
+            ], 
+            "text": "please tell me about upcoming alarms"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.5415042614559022, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.5415042614559022, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.07959677681592671, 
+                    "name": "recommendation_movies"
+                }, 
+                {
+                    "confidence": 0.07163343557405404, 
+                    "name": "recommendation_events"
+                }, 
+                {
+                    "confidence": 0.05148022105135423, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.029206723079970184, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.023835893583392526, 
+                    "name": "news_query"
+                }, 
+                {
+                    "confidence": 0.022165210681268616, 
+                    "name": "social_query"
+                }, 
+                {
+                    "confidence": 0.0216504946775953, 
+                    "name": "play_podcasts"
+                }, 
+                {
+                    "confidence": 0.01829295191085336, 
+                    "name": "qa_factoid"
+                }, 
+                {
+                    "confidence": 0.017258673883218174, 
+                    "name": "play_radio"
+                }
+            ], 
+            "text": "show alarms"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.7644567259970589, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.7644567259970589, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.033469315905637155, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.014322223885808146, 
+                    "name": "news_query"
+                }, 
+                {
+                    "confidence": 0.013032680603161123, 
+                    "name": "social_query"
+                }, 
+                {
+                    "confidence": 0.012572267481135865, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.00850306930964361, 
+                    "name": "transport_traffic"
+                }, 
+                {
+                    "confidence": 0.008103527904798518, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.007880208934121129, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.007619195235488168, 
+                    "name": "recommendation_events"
+                }, 
+                {
+                    "confidence": 0.007549422129359213, 
+                    "name": "qa_factoid"
+                }
+            ], 
+            "text": "what alarms are on right now"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 14, 
+                    "entity": "date", 
+                    "extractor": "ner_crf", 
+                    "start": 9, 
+                    "value": "today"
+                }, 
+                {
+                    "end": 31, 
+                    "entity": "event_name", 
+                    "extractor": "ner_crf", 
+                    "start": 24, 
+                    "value": "meeting"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.3633673366245615, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.3633673366245615, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.2969905739920816, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.07293165340137785, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.04626871019650806, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.024194406139809357, 
+                    "name": "news_query"
+                }, 
+                {
+                    "confidence": 0.020860859617895414, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.010311098416644794, 
+                    "name": "social_query"
+                }, 
+                {
+                    "confidence": 0.009783890522810236, 
+                    "name": "calendar_remove"
+                }, 
+                {
+                    "confidence": 0.009532372596810095, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.009049466125637055, 
+                    "name": "audio_volume_mute"
+                }
+            ], 
+            "text": "checkout today alarm of meeting"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 30, 
+                    "entity": "date", 
+                    "extractor": "ner_crf", 
+                    "start": 25, 
+                    "value": "today"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.7340932138619388, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.7340932138619388, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.09851277163289829, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.06700545329431527, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.005917203972538699, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.005419205897302336, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.005105636592300203, 
+                    "name": "weather_query"
+                }, 
+                {
+                    "confidence": 0.00508150122274875, 
+                    "name": "iot_hue_lightchange"
+                }, 
+                {
+                    "confidence": 0.004683088120846342, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.004674839781056904, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.0037198207211219915, 
+                    "name": "social_post"
+                }
+            ], 
+            "text": "have i set any alarm for today"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.7216136120319857, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.7216136120319857, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.09185621063079359, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.031352368859174015, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.02202901723170901, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.021094023265932044, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.019208637409068422, 
+                    "name": "calendar_remove"
+                }, 
+                {
+                    "confidence": 0.011441194877828397, 
+                    "name": "recommendation_events"
+                }, 
+                {
+                    "confidence": 0.00540419651705901, 
+                    "name": "news_query"
+                }, 
+                {
+                    "confidence": 0.005112799005379127, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.004602949080056662, 
+                    "name": "play_podcasts"
+                }
+            ], 
+            "text": "show me all scheduled alarms"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 63, 
+                    "entity": "date", 
+                    "extractor": "ner_crf", 
+                    "start": 55, 
+                    "value": "tomorrow"
+                }, 
+                {
+                    "end": 71, 
+                    "entity": "timeofday", 
+                    "extractor": "ner_crf", 
+                    "start": 64, 
+                    "value": "morning"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.7939279297960755, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.7939279297960755, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.06400416764037374, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.017399647970070774, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.009314082734367434, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.008786202019298393, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.008168615147642942, 
+                    "name": "general_confirm"
+                }, 
+                {
+                    "confidence": 0.007753422370565278, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.0070833795771316835, 
+                    "name": "weather_query"
+                }, 
+                {
+                    "confidence": 0.006098044605046517, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.00517151017189599, 
+                    "name": "calendar_remove"
+                }
+            ], 
+            "text": "would you please check to see if i've set my alarm for tomorrow morning"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 26, 
+                    "entity": "date", 
+                    "extractor": "ner_crf", 
+                    "start": 18, 
+                    "value": "tomorrow"
+                }, 
+                {
+                    "end": 34, 
+                    "entity": "timeofday", 
+                    "extractor": "ner_crf", 
+                    "start": 27, 
+                    "value": "morning"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.45687964294637257, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.45687964294637257, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.41729590163491553, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.06608987390273753, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.01679121734916921, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.00588619958911832, 
+                    "name": "audio_volume_mute"
+                }, 
+                {
+                    "confidence": 0.004634186793950359, 
+                    "name": "calendar_remove"
+                }, 
+                {
+                    "confidence": 0.0030089788410555983, 
+                    "name": "weather_query"
+                }, 
+                {
+                    "confidence": 0.0020783874526264417, 
+                    "name": "transport_taxi"
+                }, 
+                {
+                    "confidence": 0.0019610631486142666, 
+                    "name": "general_confirm"
+                }, 
+                {
+                    "confidence": 0.0015464305568247735, 
+                    "name": "play_radio"
+                }
+            ], 
+            "text": "confirm alarm for tomorrow morning"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 34, 
+                    "entity": "timeofday", 
+                    "extractor": "ner_crf", 
+                    "start": 27, 
+                    "value": "morning"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.9587583825544579, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9587583825544579, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.0066282293006636765, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.003515426420872981, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.0029744276987024062, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.0026760679830953983, 
+                    "name": "recommendation_events"
+                }, 
+                {
+                    "confidence": 0.0022603483929794876, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.002120044137703287, 
+                    "name": "datetime_query"
+                }, 
+                {
+                    "confidence": 0.0015630363790822774, 
+                    "name": "news_query"
+                }, 
+                {
+                    "confidence": 0.0013419137547610364, 
+                    "name": "recommendation_locations"
+                }, 
+                {
+                    "confidence": 0.0013387375990333524, 
+                    "name": "qa_factoid"
+                }
+            ], 
+            "text": "what alarms are set in the morning"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.9505117796379223, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9505117796379223, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.006551813395817009, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.0037162059507513637, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.002639378022398468, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.0023941462667117237, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.0023181506555181287, 
+                    "name": "weather_query"
+                }, 
+                {
+                    "confidence": 0.0022279374515510354, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.002020544578484175, 
+                    "name": "takeaway_query"
+                }, 
+                {
+                    "confidence": 0.001178536709406264, 
+                    "name": "iot_hue_lightchange"
+                }, 
+                {
+                    "confidence": 0.0011075351573887411, 
+                    "name": "social_query"
+                }
+            ], 
+            "text": "what alarms do i have set right now"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.9329627036705481, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9329627036705481, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.01084150063199266, 
+                    "name": "qa_factoid"
+                }, 
+                {
+                    "confidence": 0.006600313379150972, 
+                    "name": "news_query"
+                }, 
+                {
+                    "confidence": 0.006535508760474398, 
+                    "name": "email_querycontact"
+                }, 
+                {
+                    "confidence": 0.006209388103266261, 
+                    "name": "music_query"
+                }, 
+                {
+                    "confidence": 0.006120154348087704, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.00583672831246203, 
+                    "name": "qa_definition"
+                }, 
+                {
+                    "confidence": 0.00501943365454185, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.0033367119624475045, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.0018559327893868526, 
+                    "name": "social_query"
+                }
+            ], 
+            "text": "tell me about alarms"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 14, 
+                    "entity": "date", 
+                    "extractor": "ner_crf", 
+                    "start": 9, 
+                    "value": "today"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.6438214862774647, 
+                "name": "alarm_set"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.6438214862774647, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.23835395825749045, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.03521455546141598, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.010953321562717425, 
+                    "name": "play_radio"
+                }, 
+                {
+                    "confidence": 0.006736786701869005, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.003915778426788548, 
+                    "name": "transport_taxi"
+                }, 
+                {
+                    "confidence": 0.0037355706915055426, 
+                    "name": "news_query"
+                }, 
+                {
+                    "confidence": 0.003358669025293981, 
+                    "name": "qa_stock"
+                }, 
+                {
+                    "confidence": 0.003019631938303027, 
+                    "name": "iot_hue_lightchange"
+                }, 
+                {
+                    "confidence": 0.0027167520919291243, 
+                    "name": "social_query"
+                }
+            ], 
+            "text": "checkout today third set alarm"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 40, 
+                    "entity": "event_name", 
+                    "extractor": "ner_crf", 
+                    "start": 29, 
+                    "value": "dance class"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.5987823866559824, 
+                "name": "alarm_set"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.5987823866559824, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.26916945533796754, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.02198253198101269, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.020920520705323638, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.010611351058286827, 
+                    "name": "music_likeness"
+                }, 
+                {
+                    "confidence": 0.007542251978793623, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.004213829388118152, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.003217552814763337, 
+                    "name": "transport_taxi"
+                }, 
+                {
+                    "confidence": 0.0031937030732538266, 
+                    "name": "calendar_remove"
+                }, 
+                {
+                    "confidence": 0.0031237016052044456, 
+                    "name": "music_settings"
+                }
+            ], 
+            "text": "is my reminder alarm set for dance class"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.9771886136329057, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9771886136329057, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.011648179665383096, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.0012299434622751796, 
+                    "name": "datetime_query"
+                }, 
+                {
+                    "confidence": 0.0011062054327165237, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.0006282162489027178, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.0004999559352071394, 
+                    "name": "general_repeat"
+                }, 
+                {
+                    "confidence": 0.0004920193273429097, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.0003176818935004567, 
+                    "name": "datetime_convert"
+                }, 
+                {
+                    "confidence": 0.0002901136325432536, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.00026134121421158993, 
+                    "name": "takeaway_query"
+                }
+            ], 
+            "text": "what alarm time had you set"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 48, 
+                    "entity": "date", 
+                    "extractor": "ner_crf", 
+                    "start": 40, 
+                    "value": "tomorrow"
+                }, 
+                {
+                    "end": 56, 
+                    "entity": "timeofday", 
+                    "extractor": "ner_crf", 
+                    "start": 49, 
+                    "value": "morning"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.9354294948419435, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9354294948419435, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.022553463702823184, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.01269175638949498, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.0035947175502251028, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.003237758308530479, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.002350871380797649, 
+                    "name": "calendar_remove"
+                }, 
+                {
+                    "confidence": 0.0018251675135051205, 
+                    "name": "weather_query"
+                }, 
+                {
+                    "confidence": 0.0016741273632310222, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.0011757429608504144, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.0008804082778810847, 
+                    "name": "takeaway_order"
+                }
+            ], 
+            "text": "check whether i have set any alarms for tomorrow morning"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.9552694114337903, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9552694114337903, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.012278868473637017, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.003011787893683566, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.0025152644818300166, 
+                    "name": "iot_hue_lightchange"
+                }, 
+                {
+                    "confidence": 0.002084833493027586, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.002080702795625686, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.0013695806453169557, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.0012936239881794036, 
+                    "name": "takeaway_query"
+                }, 
+                {
+                    "confidence": 0.0012358779672645192, 
+                    "name": "play_game"
+                }, 
+                {
+                    "confidence": 0.0011191466736435196, 
+                    "name": "weather_query"
+                }
+            ], 
+            "text": "do i have alarms set"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.9828944478070282, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9828944478070282, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.0018229072690672148, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.0013837032403751371, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.001351522643176803, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.001163529502863496, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.001091021250029745, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.0005661197290379261, 
+                    "name": "email_querycontact"
+                }, 
+                {
+                    "confidence": 0.000550172458513283, 
+                    "name": "iot_hue_lightchange"
+                }, 
+                {
+                    "confidence": 0.0005311383981126669, 
+                    "name": "weather_query"
+                }, 
+                {
+                    "confidence": 0.000514921926459731, 
+                    "name": "qa_factoid"
+                }
+            ], 
+            "text": "what alarms i have set"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.5802685110271154, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.5802685110271154, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.10099046321035168, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.04551402246733106, 
+                    "name": "audio_volume_mute"
+                }, 
+                {
+                    "confidence": 0.024605134600397656, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.018766131718758426, 
+                    "name": "iot_wemo_off"
+                }, 
+                {
+                    "confidence": 0.017423603315868747, 
+                    "name": "transport_traffic"
+                }, 
+                {
+                    "confidence": 0.01421411516702836, 
+                    "name": "email_querycontact"
+                }, 
+                {
+                    "confidence": 0.012019164973961648, 
+                    "name": "datetime_query"
+                }, 
+                {
+                    "confidence": 0.010810893933413586, 
+                    "name": "datetime_convert"
+                }, 
+                {
+                    "confidence": 0.009590158850596556, 
+                    "name": "weather_query"
+                }
+            ], 
+            "text": "is there any alarm active"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.4262239343436684, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.4262239343436684, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.33410141640018876, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.025677114360466494, 
+                    "name": "audio_volume_mute"
+                }, 
+                {
+                    "confidence": 0.022576649871314643, 
+                    "name": "iot_hue_lightoff"
+                }, 
+                {
+                    "confidence": 0.01915012679191276, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.017265448497899384, 
+                    "name": "iot_wemo_off"
+                }, 
+                {
+                    "confidence": 0.011082108059439311, 
+                    "name": "lists_remove"
+                }, 
+                {
+                    "confidence": 0.00882685419615246, 
+                    "name": "iot_wemo_on"
+                }, 
+                {
+                    "confidence": 0.008821969527558053, 
+                    "name": "takeaway_query"
+                }, 
+                {
+                    "confidence": 0.008552027724597778, 
+                    "name": "iot_hue_lighton"
+                }
+            ], 
+            "text": "when does my alarm go off"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.9484754160033151, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.9484754160033151, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.004520462172417983, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.004438631677491161, 
+                    "name": "qa_factoid"
+                }, 
+                {
+                    "confidence": 0.003191448193224796, 
+                    "name": "news_query"
+                }, 
+                {
+                    "confidence": 0.0025228400443635195, 
+                    "name": "datetime_query"
+                }, 
+                {
+                    "confidence": 0.00234702372468878, 
+                    "name": "social_query"
+                }, 
+                {
+                    "confidence": 0.00225337702864599, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.0021609045588538147, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.0021455281710820446, 
+                    "name": "email_querycontact"
+                }, 
+                {
+                    "confidence": 0.002000542452767003, 
+                    "name": "play_game"
+                }
+            ], 
+            "text": "how many alarms are currently set"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.8229612781816371, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.8229612781816371, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.022365412971861762, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.02048507428977278, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.006861668393083829, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.006842689027160046, 
+                    "name": "audio_volume_mute"
+                }, 
+                {
+                    "confidence": 0.0067845233214789274, 
+                    "name": "takeaway_query"
+                }, 
+                {
+                    "confidence": 0.0061529657116221655, 
+                    "name": "transport_traffic"
+                }, 
+                {
+                    "confidence": 0.006087682314916043, 
+                    "name": "email_querycontact"
+                }, 
+                {
+                    "confidence": 0.004552397157955679, 
+                    "name": "weather_query"
+                }, 
+                {
+                    "confidence": 0.00445612620608476, 
+                    "name": "calendar_set"
+                }
+            ], 
+            "text": "if there any alarm is set then let me know"
+        }, 
+        {
+            "entities": [
+                {
+                    "end": 35, 
+                    "entity": "time", 
+                    "extractor": "ner_crf", 
+                    "start": 29, 
+                    "value": "six am"
+                }, 
+                {
+                    "end": 44, 
+                    "entity": "date", 
+                    "extractor": "ner_crf", 
+                    "start": 36, 
+                    "value": "tomorrow"
+                }
+            ], 
+            "intent": {
+                "confidence": 0.8462307458674547, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.8462307458674547, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.07352082142001286, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.03772631507145333, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.0052936117628324415, 
+                    "name": "calendar_query"
+                }, 
+                {
+                    "confidence": 0.002873704724324476, 
+                    "name": "weather_query"
+                }, 
+                {
+                    "confidence": 0.002695274485155042, 
+                    "name": "calendar_set"
+                }, 
+                {
+                    "confidence": 0.0020160180473214402, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.00191858287681251, 
+                    "name": "calendar_remove"
+                }, 
+                {
+                    "confidence": 0.001905750313408311, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.0015289624422600474, 
+                    "name": "audio_volume_mute"
+                }
+            ], 
+            "text": "do i have any alarms set for six am tomorrow"
+        }, 
+        {
+            "entities": [], 
+            "intent": {
+                "confidence": 0.7889575588000247, 
+                "name": "alarm_query"
+            }, 
+            "intent_ranking": [
+                {
+                    "confidence": 0.7889575588000247, 
+                    "name": "alarm_query"
+                }, 
+                {
+                    "confidence": 0.02812197296790741, 
+                    "name": "alarm_remove"
+                }, 
+                {
+                    "confidence": 0.02369769432899686, 
+                    "name": "social_query"
+                }, 
+                {
+                    "confidence": 0.0210843398154102, 
+                    "name": "email_querycontact"
+                }, 
+                {
+                    "confidence": 0.01550662123509119, 
+                    "name": "social_post"
+                }, 
+                {
+                    "confidence": 0.01492154859058094, 
+                    "name": "news_query"
+                }, 
+                {
+                    "confidence": 0.009867773840298107, 
+                    "name": "general_quirky"
+                }, 
+                {
+                    "confidence": 0.00979707510720187, 
+                    "name": "alarm_set"
+                }, 
+                {
+                    "confidence": 0.00977745437396332, 
+                    "name": "lists_query"
+                }, 
+                {
+                    "confidence": 0.008164374681630854, 
+                    "name": "email_query"
+                }
+            ], 
+            "text": "how many alarms are currently on my phone"
+        }
+    ]
+}

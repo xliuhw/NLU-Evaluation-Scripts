@@ -1,0 +1,6 @@
+{
+  "backend": "mitie",
+  "port": 8000,
+  "mitie_file": "./MITIE-models/english/total_word_feature_extractor.dat",
+  "path" : "." 
+}

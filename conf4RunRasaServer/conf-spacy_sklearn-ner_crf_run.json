@@ -1,0 +1,9 @@
+{
+  "xing_comments1": "start rasa server: python -m rasa_nlu.server -c xxx.json",
+  "xing_comments2": "the server will load all projects in path specified below. In one project, load latest one",  
+  "xing_comments3": "model name should be model_yyyymmdd-hhmmss as for 15 Nov 2017",  
+  "xing_comments4": "pipeline below is the default RASA predfined spacy_sklearn",  
+  "pipeline": ["nlp_spacy", "tokenizer_spacy", "intent_entity_featurizer_regex", "intent_featurizer_spacy", "ner_crf", "ner_synonyms",  "intent_classifier_sklearn"],
+  "port": 8802,
+  "path" : "./trained_models_run" 
+}

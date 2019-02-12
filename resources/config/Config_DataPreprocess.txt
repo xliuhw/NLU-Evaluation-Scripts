@@ -1,0 +1,102 @@
+# configurations for Rasa Data Preprocess
+# XKL @ HWU/Emotech 07 Dec 2017
+
+# 
+#-----------------------------
+# Command for all components
+#-------------------------------
+
+## -------------------------------------------------------------------------------
+# These are for generating training config file for RASA. You can always modified the generated config file
+# or use you own config file for training RASA model.
+
+# RasaPipeline: used for training the model
+#    default: spacy_sklearn. Another could be mitie (need pre-downloaded mitie model)
+
+RasaPipeline = spacy_sklearn
+## -------------------------------------------------------------------------------
+
+
+destRootDirTop = .
+
+#------------------------------
+# PreprocessRealData.java
+#-------------------------------
+
+origAnnoCsvUrl = resources/input-csv/AnnotatedData_MergedAll.csv
+
+# flagPrefixForIgnoreUtterance: IRR as in column "status" in csv file, the value starting
+# with IRR will ignore those utterances when generating data for training and tesing.
+# anything else specified here will overwritten IRR of "status" in the csv file.
+flagPrefixForIgnoreUtterance = IRR
+
+# maxNumUtt specifies maximum number of sentences to use for each intent.
+# if it is greater than the actual num of sentences, the actual num is used.
+# ---------------------------------------
+# NB  maxNumUtt (e.g. 100) combining with OnlyIncludeIntents below can be used to generate 
+#     a smaller dataset for initial codes/scripts and services testing.
+# ---------------------------------------
+
+# maxNumUtt = 500
+maxNumUtt = 195
+# maxNumUtt = 100
+
+# minNumUtt specifies minimum number of sentences to use for each intent.
+# if the num of intent samples/sentences is less than it, 
+# this intent will not be included in train and test set.
+minNumUtt = 30
+
+## maxNumLongUtt: the threshold to exlcude utterances which are too long. In number of words.
+maxNumLongUtt = 25
+
+## numKFold for generating data sets for Cross-Valiation. 0: Do not create the data sets.
+## otherwise create it, e.g. numKFold = 5 or 10
+numKFold = 10
+
+## if trainset + testset <= 100, they do not overlap, otherwise overlap
+## if trainset = 100, this is to test the trainset, i.e. use all to train, 
+##    so testset is part of the trainset
+## default is trainset + testset = 100
+
+trainsetPercent = 80
+testsetPercent = 20
+
+# ExcludeSingleWord : false, true
+ExcludeSingleWord = false
+
+#--- TIER1: only use very top level classes. e.g. iot
+#--- TIER2: second level, e.g. iot_volumn
+#--- TIER3: third level if there is any: e.g. iot_volumn_up. Currently this is Full intent name.
+#           Normally TIER3 as default.
+
+#IntentTier = TIER1
+#IntentTier = TIER2
+
+IntentTier = TIER3
+
+#### If OnlyIncludeIntents is specified, ExcludeIntents will be irrelevant
+# ExcludeIntents = general_quirky, audio_volume_other, music_dislikeness, iot_hue_lighton, audio_volume_down
+# OnlyIncludeIntents = alarm_query, alarm_remove, alarm_set, audio_volume_down, audio_volume_mute, audio_volume_other, audio_volume_up, calendar_query, calendar_remove, calendar_set
+
+
+# ----------------------------
+# PrepareRasaCorpora.java
+# -----------------------------
+# if do not use RASA's regex_feature: rasaRegexFeatureFile = 
+rasaRegexFeatureFile = resources/feature-words/feature-words.txt
+# rasaRegexFeatureFile = 
+
+#useTrainset = true
+projectName = FinalNormMainV1
+
+
+# ----------------------------
+# Evaluation.java. For the moment, only no spacy evaluation interface yet.
+# ----------------------------
+
+# default: true.
+RasaLatestVersion = true
+numRankingCheck = 3
+
+#### END OF THE FILE ####
+

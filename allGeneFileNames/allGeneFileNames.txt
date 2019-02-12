@@ -1,0 +1,17 @@
+# -------------------------------
+# all generated file names. All modules will append new generated files to here
+# and read file names from here for their input.
+# each run starts with line "=A_TASK_START=" 
+# empty line and hash key are comment lines and ignored
+# Format:
+#
+# =A_TASK_START=
+# timeStamp=xxx
+# ................
+#
+# Fixed subdir names for preprocessOutDir;
+# Domain, DomainIntent,DomainIntentNoDup, DomainIntentNoDupShuffle,
+# DomainIntentNoDupShuffleSubset, DomainIntentNoDupShuffleSubset_Train,
+# DomainIntentNoDupShuffleSubset_Test
+ 
+

@@ -1,0 +1,1935 @@
+{
+    "results": [
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "what alarms did i set", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "3faca935-1fe3-4a92-ba1f-34362e0295b3", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "what alarms did i set", 
+                "score": 1.0, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:30.792Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "have i set any alarms in the morning", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "c596165b-0c8e-49a8-9fd7-ae4bf52cc842", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": "morning"
+                }, 
+                "resolvedQuery": "have i set any alarms in the morning", 
+                "score": 0.8899999856948853, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:31.277Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "which alarms do i have", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "7d2b92c0-a667-44c5-ad27-ad1e030301a7", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "which alarms do i have", 
+                "score": 0.8700000047683716, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:31.757Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "what alarms are set", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "e219694e-c788-412f-a8e4-6c2d546f4087", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "what alarms are set", 
+                "score": 1.0, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:32.243Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "what alarm do i have set for today", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "c477c150-4096-422e-9805-92bb7590958b", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "today", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "what alarm do i have set for today", 
+                "score": 1.0, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:32.743Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "list all of my alarms", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "04606737-0141-4e75-858e-ce2d6a2694db", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "list all of my alarms", 
+                "score": 0.9100000262260437, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:33.223Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "at what time is my alarm set", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "f02b9e1f-9ffd-4b18-bae7-ed8a00b94d23", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "at what time is my alarm set", 
+                "score": 0.9200000166893005, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:33.723Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "let me know about any alarms set today", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "bd560f05-1826-460d-b421-095c6b60dc29", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "today", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "let me know about any alarms set today", 
+                "score": 0.9599999785423279, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:34.269Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "list all of my upcoming alarms", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "a316d2fb-567b-4a43-bade-42b6644fa3ab", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "list all of my upcoming alarms", 
+                "score": 0.75, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:34.748Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "would like to know the alarm you sent", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "89cb5967-c35a-4ae9-add8-3c204adae780", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "would like to know the alarm you sent", 
+                "score": 0.5, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:35.251Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "have i got any alarms set", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "46dfea39-2f5a-4be4-9915-ae96775b3138", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "have i got any alarms set", 
+                "score": 0.8399999737739563, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:35.763Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "see see for me the alarms that you have set tomorrow morning", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "0e4badfd-e0ba-4c33-9517-8ad2f908e523", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "tomorrow ", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": "morning"
+                }, 
+                "resolvedQuery": "see see for me the alarms that you have set tomorrow morning", 
+                "score": 0.8299999833106995, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:36.236Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "please read me my alarms", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "9182703a-c512-47f0-9cc0-df042b04598f", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "please read me my alarms", 
+                "score": 1.0, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:36.711Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "please let me know the morning alarm time for weekdays", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "0e6f2cce-a214-42b5-870a-dcf1f17793f9", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "weekdays", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "please let me know the morning alarm time for weekdays", 
+                "score": 0.6600000262260437, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:37.262Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "check if alarm is set for six am", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "9c121fbb-2c76-483d-8b41-e71d5bbe86b3", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "six am", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "check if alarm is set for six am", 
+                "score": 0.8199999928474426, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:37.758Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "what are the next three alarms set to go off", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "987e6368-3162-451f-831b-fe833f19814d", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "what are the next three alarms set to go off", 
+                "score": 0.9399999976158142, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:38.259Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "please tell me about upcoming alarms", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "0bca7fea-4124-4be6-98c6-702dde4d7ad0", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "please tell me about upcoming alarms", 
+                "score": 0.8799999952316284, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:38.774Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "show alarms", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "6a41746b-195f-4596-bd6b-d3e82216c567", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "show alarms", 
+                "score": 1.0, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:39.236Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "what alarms are on right now", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "c4b84e16-37f7-4fdd-8340-efa0d030c667", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "what alarms are on right now", 
+                "score": 0.949999988079071, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:39.722Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "checkout today alarm of meeting", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "716968c8-318b-4d40-9198-7b4fcc69e9f3", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "today", 
+                    "device_type": "", 
+                    "event_name": "meeting", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "checkout today alarm of meeting", 
+                "score": 0.6299999952316284, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:40.201Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "have i set any alarm for today", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "4bf3bf1c-a9aa-4780-88cf-c39993973107", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "today", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "have i set any alarm for today", 
+                "score": 0.6800000071525574, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:40.684Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "show me all scheduled alarms", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "b9049722-6300-4380-b5a5-4eed3008abf4", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "show me ", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "show me all scheduled alarms", 
+                "score": 0.7699999809265137, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:41.177Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "would you please check to see if i've set my alarm for tomorrow morning", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "6327a1f0-f1f5-4820-bcee-0b1d4b396ad2", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "tomorrow ", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": "morning"
+                }, 
+                "resolvedQuery": "would you please check to see if i've set my alarm for tomorrow morning", 
+                "score": 0.6299999952316284, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:41.765Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "confirm alarm for tomorrow morning", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "eb07e2f7-e88c-46c3-9078-7f9366e6a022", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "tomorrow ", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": "morning"
+                }, 
+                "resolvedQuery": "confirm alarm for tomorrow morning", 
+                "score": 0.6600000262260437, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:42.236Z"
+        }, 
+        {
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "47236150-3a48-451f-bf14-b5a8e98f0425", 
+            "lang": "en", 
+            "result": {
+                "contexts": [], 
+                "fulfillment": {
+                    "speech": ""
+                }, 
+                "metadata": {}, 
+                "resolvedQuery": "what alarms are set in the morning", 
+                "score": 0.0, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:42.77Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "what alarms do i have set right now", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "6dba7adb-31d6-4d84-8f86-a06c39b91159", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "what alarms do i have set right now", 
+                "score": 1.0, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:43.248Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "tell me about alarms", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "0c4f9c92-b42b-4b47-8035-f884327c5b9e", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "tell me about alarms", 
+                "score": 0.762489596712264, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:43.704Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "checkout today third set alarm", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "8b602f0c-d623-45b3-ba67-ecbb4abe3ae9", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "today", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "checkout today third set alarm", 
+                "score": 0.9200000166893005, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:44.177Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "is my reminder alarm set for dance class", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "16501868-6d57-4d3c-b599-5ce65a75a997", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "dance class", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "is my reminder alarm set for dance class", 
+                "score": 0.7699999809265137, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:44.658Z"
+        }, 
+        {
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "22f0fd2f-2fc7-4713-98aa-0aeafd52fa8d", 
+            "lang": "en", 
+            "result": {
+                "contexts": [], 
+                "fulfillment": {
+                    "speech": ""
+                }, 
+                "metadata": {}, 
+                "resolvedQuery": "what alarm time had you set", 
+                "score": 0.0, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:45.138Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "check whether i have set any alarms for tomorrow morning", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "199fcced-3934-4cb1-80df-dfd4436b718f", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "tomorrow ", 
+                    "device_type": "", 
+                    "event_name": "whether ", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": "morning"
+                }, 
+                "resolvedQuery": "check whether i have set any alarms for tomorrow morning", 
+                "score": 0.9300000071525574, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:45.601Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "do i have alarms set", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "5661db39-b5e7-4356-a7a9-05ab5b8e46fb", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "do i have alarms set", 
+                "score": 1.0, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:46.074Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "what alarms i have set", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "095fc9a0-33b0-4410-ac43-b1de2f137ccf", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "what alarms i have set", 
+                "score": 1.0, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:46.558Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "is there any alarm active", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "337ca51e-f3d7-4dfd-b614-bd873320ef94", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "is there any alarm active", 
+                "score": 0.949999988079071, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:47.053Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "when does my alarm go off", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "d1654507-7e29-4d5b-ba60-420447c88cb8", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "when does my alarm go off", 
+                "score": 0.6899999976158142, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:47.546Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "how many alarms are currently set", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "6ae1de98-5187-422c-ab4a-99398e434834", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "how many alarms are currently set", 
+                "score": 0.8600000143051147, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:48.049Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "if there any alarm is set then let me know", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "f401431f-4b04-480d-b553-4715f5feb80e", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "if there any alarm is set then let me know", 
+                "score": 0.7799999713897705, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:48.526Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "do i have any alarms set for six am tomorrow", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "920d5f83-2998-4f21-839a-7cc55b23dd42", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "tomorrow", 
+                    "device_type": "", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "six am ", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "do i have any alarms set for six am tomorrow", 
+                "score": 0.9100000262260437, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:49.086Z"
+        }, 
+        {
+            "alternateResult": {
+                "fulfillment": {}, 
+                "metadata": {}, 
+                "resolvedQuery": "how many alarms are currently on my phone", 
+                "score": 1.0, 
+                "source": "domains"
+            }, 
+            "alternativeResultsFromKnowledgeService": {}, 
+            "id": "722dea24-b623-455e-aa3b-aaf96b3c9109", 
+            "lang": "en", 
+            "result": {
+                "action": "", 
+                "actionIncomplete": false, 
+                "contexts": [], 
+                "fulfillment": {
+                    "messages": [
+                        {
+                            "speech": "", 
+                            "type": 0
+                        }
+                    ], 
+                    "speech": ""
+                }, 
+                "metadata": {
+                    "intentId": "78f77a32-07a9-49bc-959f-54191952a1f0", 
+                    "intentName": "alarm_query", 
+                    "webhookForSlotFillingUsed": "false", 
+                    "webhookUsed": "false"
+                }, 
+                "parameters": {
+                    "alarm_type": "", 
+                    "date": "", 
+                    "device_type": "phone", 
+                    "event_name": "", 
+                    "house_place": "", 
+                    "time": "", 
+                    "timeofday": ""
+                }, 
+                "resolvedQuery": "how many alarms are currently on my phone", 
+                "score": 0.6899999976158142, 
+                "source": "agent"
+            }, 
+            "sessionId": "a4b3d80f7c2847db90e1b673a836aa1b", 
+            "status": {
+                "code": 200, 
+                "errorType": "success", 
+                "webhookTimedOut": false
+            }, 
+            "timestamp": "2018-03-16T10:59:49.583Z"
+        }
+    ]
+}

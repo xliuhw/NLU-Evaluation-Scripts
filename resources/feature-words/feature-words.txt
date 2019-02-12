@@ -1,0 +1,34 @@
+alarm= alarm, alarms, wake me up, wake up
+audio = audio, volume, mute, muted, unmute, silent mode, silence mode, speak up, loud.
+audiobook = audiobook, audio book, book.
+calendar = calendar, calendars, appointment, appointments,schedule, schedules, scheduled
+calendar = remind me, reminding me, reminder, reminders.
+cooking = cook, cooking, ingredient, ingredients, recipe, boiled
+datetime = 
+email = email, emails, mail
+game = game, games
+general = 
+iot = dim, mute, unmute, dirty, noise, down, up, off,quieter
+lists = 
+music = music, song,songs
+news = news
+podcasts = podcast, podcasts
+qa = 
+radio = radio, channel, station
+recommendation =
+social = 
+takeaway = takeway, take away, delivery, take out
+transport = 
+weather = rain, snow, sunny, cold, temperature, forecast, forecasts
+###################
+# do i need sunscreen
+
+#do i have to bring umbrella for tonight party
+#lady gaga
+#bbc
+#spotify
+#darken
+#instagram
+#extract all keywords
+# party
+#shopping

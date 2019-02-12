@@ -1,0 +1,1921 @@
+{
+    "results": [
+        {
+            "context": {
+                "conversation_id": "c173bb55-f1ca-47f8-804c-fc40ca883fb4", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [], 
+            "input": {
+                "text": "what alarms did i set"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9986865520477295, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "31a3ea14-0039-421d-944d-d80a6066c7a3", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "coffee_type", 
+                    "location": [
+                        29, 
+                        36
+                    ], 
+                    "value": "morning"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "timeofday", 
+                    "location": [
+                        29, 
+                        36
+                    ], 
+                    "value": "morning"
+                }
+            ], 
+            "input": {
+                "text": "have i set any alarms in the morning"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9816996097564699, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "3ceda0be-db92-426a-876a-8febdda7ff91", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [], 
+            "input": {
+                "text": "which alarms do i have"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9676301002502441, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "a173e214-0847-40d8-afc2-68de97d9af2d", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [], 
+            "input": {
+                "text": "what alarms are set"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9946760177612306, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "39e4ccbd-5510-4e12-89e2-7db3d5e349c1", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        5, 
+                        10
+                    ], 
+                    "value": "alarm"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "date", 
+                    "location": [
+                        29, 
+                        34
+                    ], 
+                    "value": "today"
+                }
+            ], 
+            "input": {
+                "text": "what alarm do i have set for today"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9889073371887207, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "6e9707ff-2411-4334-b1f3-6236ea0c0d5a", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "event_name", 
+                    "location": [
+                        5, 
+                        8
+                    ], 
+                    "value": "all"
+                }
+            ], 
+            "input": {
+                "text": "list all of my alarms"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9365124225616455, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "eb3e3475-6453-4c00-8209-3a7c26131ac8", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        19, 
+                        24
+                    ], 
+                    "value": "alarm"
+                }
+            ], 
+            "input": {
+                "text": "at what time is my alarm set"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9944725990295411, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "1de73754-819c-4071-ba46-561924f813b4", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "date", 
+                    "location": [
+                        33, 
+                        38
+                    ], 
+                    "value": "today"
+                }
+            ], 
+            "input": {
+                "text": "let me know about any alarms set today"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9921907424926759, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "1f1af7b2-008c-469d-99e2-4bf30d7cbb53", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "event_name", 
+                    "location": [
+                        5, 
+                        8
+                    ], 
+                    "value": "all"
+                }
+            ], 
+            "input": {
+                "text": "list all of my upcoming alarms"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9028758049011232, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "7dd2ac06-dc70-4379-83b8-c68a0c85a910", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        23, 
+                        28
+                    ], 
+                    "value": "alarm"
+                }
+            ], 
+            "input": {
+                "text": "would like to know the alarm you sent"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.4883821725845337, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "3f6c1ed5-0a9d-4a12-978a-d9c6b26f636b", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [], 
+            "input": {
+                "text": "have i got any alarms set"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9951635360717774, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "6990948d-2c87-42e4-8f00-7799ede4822d", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "date", 
+                    "location": [
+                        44, 
+                        52
+                    ], 
+                    "value": "tomorrow"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "coffee_type", 
+                    "location": [
+                        53, 
+                        60
+                    ], 
+                    "value": "morning"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "timeofday", 
+                    "location": [
+                        53, 
+                        60
+                    ], 
+                    "value": "morning"
+                }
+            ], 
+            "input": {
+                "text": "see see for me the alarms that you have set tomorrow morning"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9809192657470704, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "c2bbc126-eeea-4bb1-9edd-20191d110f59", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "player_setting", 
+                    "location": [
+                        7, 
+                        11
+                    ], 
+                    "value": "read"
+                }
+            ], 
+            "input": {
+                "text": "please read me my alarms"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.8933370590209961, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "8deb905f-d870-4875-9580-4a2e32722a33", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "coffee_type", 
+                    "location": [
+                        23, 
+                        30
+                    ], 
+                    "value": "morning"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "timeofday", 
+                    "location": [
+                        23, 
+                        30
+                    ], 
+                    "value": "morning"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        31, 
+                        36
+                    ], 
+                    "value": "alarm"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "date", 
+                    "location": [
+                        46, 
+                        54
+                    ], 
+                    "value": "weekdays"
+                }
+            ], 
+            "input": {
+                "text": "please let me know the morning alarm time for weekdays"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.882454538345337, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "89b03212-dae4-4ab5-ba9d-9ca9205caab1", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        9, 
+                        14
+                    ], 
+                    "value": "alarm"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "time", 
+                    "location": [
+                        26, 
+                        32
+                    ], 
+                    "value": "six am"
+                }
+            ], 
+            "input": {
+                "text": "check if alarm is set for six am"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.8987040519714355, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "0c2c3ece-fad2-4067-98bc-6e26a6f11685", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "time", 
+                    "location": [
+                        18, 
+                        23
+                    ], 
+                    "value": "three"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "order_type", 
+                    "location": [
+                        35, 
+                        40
+                    ], 
+                    "value": "to go"
+                }
+            ], 
+            "input": {
+                "text": "what are the next three alarms set to go off"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9800398826599122, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "204f98c7-83cf-4f32-bab6-8cfa73ead942", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [], 
+            "input": {
+                "text": "please tell me about upcoming alarms"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9907125473022462, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "604fb58f-756f-4ca7-869c-976ba51cc539", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "event_name", 
+                    "location": [
+                        0, 
+                        4
+                    ], 
+                    "value": "show"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "business_type", 
+                    "location": [
+                        0, 
+                        4
+                    ], 
+                    "value": "show"
+                }
+            ], 
+            "input": {
+                "text": "show alarms"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9884084224700929, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "f0751313-03c1-4e8f-a946-68f2db78f78a", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "date", 
+                    "location": [
+                        19, 
+                        28
+                    ], 
+                    "value": "right now"
+                }
+            ], 
+            "input": {
+                "text": "what alarms are on right now"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9838510990142824, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "42dd9f5d-9c3d-434b-bcdb-49d57bf92b20", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "date", 
+                    "location": [
+                        9, 
+                        14
+                    ], 
+                    "value": "today"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        15, 
+                        20
+                    ], 
+                    "value": "alarm"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "event_name", 
+                    "location": [
+                        24, 
+                        31
+                    ], 
+                    "value": "meeting"
+                }
+            ], 
+            "input": {
+                "text": "checkout today alarm of meeting"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.7609709262847901, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "486c08f0-8b2c-413b-a21a-2b5c2e4228e4", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        15, 
+                        20
+                    ], 
+                    "value": "alarm"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "date", 
+                    "location": [
+                        25, 
+                        30
+                    ], 
+                    "value": "today"
+                }
+            ], 
+            "input": {
+                "text": "have i set any alarm for today"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.7187010288238527, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "457eb642-c932-4a53-9ec4-93e563b962b3", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "event_name", 
+                    "location": [
+                        0, 
+                        4
+                    ], 
+                    "value": "show"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "business_type", 
+                    "location": [
+                        0, 
+                        4
+                    ], 
+                    "value": "show"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "event_name", 
+                    "location": [
+                        8, 
+                        11
+                    ], 
+                    "value": "all"
+                }
+            ], 
+            "input": {
+                "text": "show me all scheduled alarms"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9920869827270509, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "2c6847c1-bb1c-4fb2-87ff-a1cc00044be9", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        45, 
+                        50
+                    ], 
+                    "value": "alarm"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "date", 
+                    "location": [
+                        55, 
+                        63
+                    ], 
+                    "value": "tomorrow"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "coffee_type", 
+                    "location": [
+                        64, 
+                        71
+                    ], 
+                    "value": "morning"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "timeofday", 
+                    "location": [
+                        64, 
+                        71
+                    ], 
+                    "value": "morning"
+                }
+            ], 
+            "input": {
+                "text": "would you please check to see if i've set my alarm for tomorrow morning"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9826034545898439, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "fadb3668-6112-4bfa-ab21-47b84efed174", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        8, 
+                        13
+                    ], 
+                    "value": "alarm"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "date", 
+                    "location": [
+                        18, 
+                        26
+                    ], 
+                    "value": "tomorrow"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "coffee_type", 
+                    "location": [
+                        27, 
+                        34
+                    ], 
+                    "value": "morning"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "timeofday", 
+                    "location": [
+                        27, 
+                        34
+                    ], 
+                    "value": "morning"
+                }
+            ], 
+            "input": {
+                "text": "confirm alarm for tomorrow morning"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.6147375106811523, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "fd72d655-2944-42e6-a5a4-3e64538844b6", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "coffee_type", 
+                    "location": [
+                        27, 
+                        34
+                    ], 
+                    "value": "morning"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "timeofday", 
+                    "location": [
+                        27, 
+                        34
+                    ], 
+                    "value": "morning"
+                }
+            ], 
+            "input": {
+                "text": "what alarms are set in the morning"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9912809371948244, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "e1b7f7d1-9666-40d7-96a7-f1f5dd05abbb", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "date", 
+                    "location": [
+                        26, 
+                        35
+                    ], 
+                    "value": "right now"
+                }
+            ], 
+            "input": {
+                "text": "what alarms do i have set right now"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9993202686309814, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "290ad4a0-4dc3-428e-ac3f-03636f9a8a78", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [], 
+            "input": {
+                "text": "tell me about alarms"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9967185020446778, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "41030431-64b4-4bdf-bea6-3d4fb18f71ae", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "date", 
+                    "location": [
+                        9, 
+                        14
+                    ], 
+                    "value": "today"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "date", 
+                    "location": [
+                        15, 
+                        20
+                    ], 
+                    "value": "third"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        25, 
+                        30
+                    ], 
+                    "value": "alarm"
+                }
+            ], 
+            "input": {
+                "text": "checkout today third set alarm"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.7225489616394043, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "6797c462-e952-4d82-9e58-a5aa5bea252c", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        15, 
+                        20
+                    ], 
+                    "value": "alarm"
+                }
+            ], 
+            "input": {
+                "text": "is my reminder alarm set for dance class"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.7299211978912354, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "8ed06e58-8a16-46e2-94b5-dd38846653ae", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        5, 
+                        10
+                    ], 
+                    "value": "alarm"
+                }
+            ], 
+            "input": {
+                "text": "what alarm time had you set"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9693183422088623, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "d2c39929-9522-4502-b903-0cfa77db53c3", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "date", 
+                    "location": [
+                        40, 
+                        48
+                    ], 
+                    "value": "tomorrow"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "coffee_type", 
+                    "location": [
+                        49, 
+                        56
+                    ], 
+                    "value": "morning"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "timeofday", 
+                    "location": [
+                        49, 
+                        56
+                    ], 
+                    "value": "morning"
+                }
+            ], 
+            "input": {
+                "text": "check whether i have set any alarms for tomorrow morning"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9974880695343018, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "9e2ec41f-feef-47c5-a701-8767d815af29", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [], 
+            "input": {
+                "text": "do i have alarms set"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9950847625732422, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "aa75a7af-c403-4e3e-afb2-27e22cb73f15", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [], 
+            "input": {
+                "text": "what alarms i have set"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9978336811065673, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "f9900659-7c21-4807-8820-79058eeeb030", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        13, 
+                        18
+                    ], 
+                    "value": "alarm"
+                }
+            ], 
+            "input": {
+                "text": "is there any alarm active"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9507911682128907, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "d9ea9cf3-2a50-4a74-b7d7-4ea189457a93", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        13, 
+                        18
+                    ], 
+                    "value": "alarm"
+                }
+            ], 
+            "input": {
+                "text": "when does my alarm go off"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.6602797508239746, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "d61cdce9-172e-4d7c-b179-434aabce29ed", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [], 
+            "input": {
+                "text": "how many alarms are currently set"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9730751514434814, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "f7a3c298-9883-4fb9-9bbd-5a8ca2d7b967", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "list_name", 
+                    "location": [
+                        13, 
+                        18
+                    ], 
+                    "value": "alarm"
+                }
+            ], 
+            "input": {
+                "text": "if there any alarm is set then let me know"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9978873252868652, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "c1901675-7771-4d88-9cae-de6414eaa4c0", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "time", 
+                    "location": [
+                        29, 
+                        35
+                    ], 
+                    "value": "six am"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "date", 
+                    "location": [
+                        36, 
+                        44
+                    ], 
+                    "value": "tomorrow"
+                }
+            ], 
+            "input": {
+                "text": "do i have any alarms set for six am tomorrow"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.9326602935791015, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }, 
+        {
+            "context": {
+                "conversation_id": "06ff2be0-643e-43b3-9536-08ef2ce5d57e", 
+                "system": {
+                    "dialog_request_counter": 1, 
+                    "dialog_stack": [
+                        {
+                            "dialog_node": "root"
+                        }
+                    ], 
+                    "dialog_turn_counter": 1
+                }
+            }, 
+            "entities": [
+                {
+                    "confidence": 1, 
+                    "entity": "device_type", 
+                    "location": [
+                        36, 
+                        41
+                    ], 
+                    "value": "phone"
+                }, 
+                {
+                    "confidence": 1, 
+                    "entity": "personal_info", 
+                    "location": [
+                        36, 
+                        41
+                    ], 
+                    "value": "phone"
+                }
+            ], 
+            "input": {
+                "text": "how many alarms are currently on my phone"
+            }, 
+            "intents": [
+                {
+                    "confidence": 0.970286273956299, 
+                    "intent": "alarm_query"
+                }
+            ], 
+            "output": {
+                "log_messages": [
+                    {
+                        "level": "warn", 
+                        "msg": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+                    }
+                ], 
+                "nodes_visited": [], 
+                "text": [], 
+                "warning": "No dialog node condition matched to true in the last dialog round - context.nodes_visited is empty. Falling back to the root node in the next round."
+            }
+        }
+    ]
+}

@@ -1,0 +1,408 @@
+{
+    "results": [
+        {
+            "confidence": 0.9999366, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "what alarms did i set"
+        }, 
+        {
+            "confidence": 0.9996441, 
+            "entities": [
+                {
+                    "end": 35, 
+                    "entity": "Hier2::timeofday", 
+                    "score": 0.9978259, 
+                    "start": 29, 
+                    "value": "morning"
+                }
+            ], 
+            "intent": "alarm_query", 
+            "text": "have i set any alarms in the morning"
+        }, 
+        {
+            "confidence": 0.999907, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "which alarms do i have"
+        }, 
+        {
+            "confidence": 0.999883652, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "what alarms are set"
+        }, 
+        {
+            "confidence": 0.9997054, 
+            "entities": [
+                {
+                    "end": 33, 
+                    "entity": "Hier2::date", 
+                    "score": 0.9998783, 
+                    "start": 29, 
+                    "value": "today"
+                }
+            ], 
+            "intent": "alarm_query", 
+            "text": "what alarm do i have set for today"
+        }, 
+        {
+            "confidence": 0.9990399, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "list all of my alarms"
+        }, 
+        {
+            "confidence": 0.999943733, 
+            "entities": [], 
+            "intent": "alarm_set", 
+            "text": "at what time is my alarm set"
+        }, 
+        {
+            "confidence": 0.9996603, 
+            "entities": [
+                {
+                    "end": 37, 
+                    "entity": "Hier2::date", 
+                    "score": 0.998899758, 
+                    "start": 33, 
+                    "value": "today"
+                }
+            ], 
+            "intent": "alarm_query", 
+            "text": "let me know about any alarms set today"
+        }, 
+        {
+            "confidence": 0.99268055, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "list all of my upcoming alarms"
+        }, 
+        {
+            "confidence": 0.9063948, 
+            "entities": [], 
+            "intent": "alarm_set", 
+            "text": "would like to know the alarm you sent"
+        }, 
+        {
+            "confidence": 0.9998236, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "have i got any alarms set"
+        }, 
+        {
+            "confidence": 0.998681, 
+            "entities": [
+                {
+                    "end": 51, 
+                    "entity": "Hier2::date", 
+                    "score": 0.9996461, 
+                    "start": 44, 
+                    "value": "tomorrow"
+                }, 
+                {
+                    "end": 59, 
+                    "entity": "Hier2::timeofday", 
+                    "score": 0.9990779, 
+                    "start": 53, 
+                    "value": "morning"
+                }
+            ], 
+            "intent": "alarm_query", 
+            "text": "see see for me the alarms that you have set tomorrow morning"
+        }, 
+        {
+            "confidence": 0.993716538, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "please read me my alarms"
+        }, 
+        {
+            "confidence": 0.968006849, 
+            "entities": [
+                {
+                    "end": 29, 
+                    "entity": "Hier2::timeofday", 
+                    "score": 0.9987307, 
+                    "start": 23, 
+                    "value": "morning"
+                }
+            ], 
+            "intent": "alarm_set", 
+            "text": "please let me know the morning alarm time for weekdays"
+        }, 
+        {
+            "confidence": 0.9996546, 
+            "entities": [
+                {
+                    "end": 31, 
+                    "entity": "Hier2::time", 
+                    "score": 0.9994543, 
+                    "start": 26, 
+                    "value": "six am"
+                }
+            ], 
+            "intent": "alarm_set", 
+            "text": "check if alarm is set for six am"
+        }, 
+        {
+            "confidence": 0.9994935, 
+            "entities": [
+                {
+                    "end": 22, 
+                    "entity": "Hier11::podcast_descriptor", 
+                    "score": 0.9727074, 
+                    "start": 13, 
+                    "value": "next three"
+                }
+            ], 
+            "intent": "alarm_query", 
+            "text": "what are the next three alarms set to go off"
+        }, 
+        {
+            "confidence": 0.9848695, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "please tell me about upcoming alarms"
+        }, 
+        {
+            "confidence": 0.9997068, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "show alarms"
+        }, 
+        {
+            "confidence": 0.992645264, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "what alarms are on right now"
+        }, 
+        {
+            "confidence": 0.899573743, 
+            "entities": [
+                {
+                    "end": 13, 
+                    "entity": "Hier2::date", 
+                    "score": 0.965597034, 
+                    "start": 9, 
+                    "value": "today"
+                }, 
+                {
+                    "end": 30, 
+                    "entity": "Hier2::event_name", 
+                    "score": 0.929827631, 
+                    "start": 24, 
+                    "value": "meeting"
+                }
+            ], 
+            "intent": "alarm_query", 
+            "text": "checkout today alarm of meeting"
+        }, 
+        {
+            "confidence": 0.9990787, 
+            "entities": [
+                {
+                    "end": 29, 
+                    "entity": "Hier2::date", 
+                    "score": 0.9995051, 
+                    "start": 25, 
+                    "value": "today"
+                }
+            ], 
+            "intent": "alarm_query", 
+            "text": "have i set any alarm for today"
+        }, 
+        {
+            "confidence": 0.99173975, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "show me all scheduled alarms"
+        }, 
+        {
+            "confidence": 0.8768992, 
+            "entities": [
+                {
+                    "end": 62, 
+                    "entity": "Hier2::date", 
+                    "score": 0.9990248, 
+                    "start": 55, 
+                    "value": "tomorrow"
+                }, 
+                {
+                    "end": 70, 
+                    "entity": "Hier2::timeofday", 
+                    "score": 0.999007165, 
+                    "start": 64, 
+                    "value": "morning"
+                }
+            ], 
+            "intent": "alarm_set", 
+            "text": "would you please check to see if i've set my alarm for tomorrow morning"
+        }, 
+        {
+            "confidence": 0.953748345, 
+            "entities": [
+                {
+                    "end": 25, 
+                    "entity": "Hier2::date", 
+                    "score": 0.999097347, 
+                    "start": 18, 
+                    "value": "tomorrow"
+                }, 
+                {
+                    "end": 33, 
+                    "entity": "Hier2::timeofday", 
+                    "score": 0.999007165, 
+                    "start": 27, 
+                    "value": "morning"
+                }
+            ], 
+            "intent": "alarm_query", 
+            "text": "confirm alarm for tomorrow morning"
+        }, 
+        {
+            "confidence": 0.998766, 
+            "entities": [
+                {
+                    "end": 33, 
+                    "entity": "Hier2::timeofday", 
+                    "score": 0.9994218, 
+                    "start": 27, 
+                    "value": "morning"
+                }
+            ], 
+            "intent": "alarm_query", 
+            "text": "what alarms are set in the morning"
+        }, 
+        {
+            "confidence": 0.9997606, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "what alarms do i have set right now"
+        }, 
+        {
+            "confidence": 0.999859333, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "tell me about alarms"
+        }, 
+        {
+            "confidence": 0.9095879, 
+            "entities": [
+                {
+                    "end": 13, 
+                    "entity": "Hier2::date", 
+                    "score": 0.941387236, 
+                    "start": 9, 
+                    "value": "today"
+                }
+            ], 
+            "intent": "alarm_query", 
+            "text": "checkout today third set alarm"
+        }, 
+        {
+            "confidence": 0.9622382, 
+            "entities": [
+                {
+                    "end": 39, 
+                    "entity": "Hier2::event_name", 
+                    "score": 0.462255418, 
+                    "start": 29, 
+                    "value": "dance class"
+                }
+            ], 
+            "intent": "alarm_set", 
+            "text": "is my reminder alarm set for dance class"
+        }, 
+        {
+            "confidence": 0.9983477, 
+            "entities": [], 
+            "intent": "alarm_set", 
+            "text": "what alarm time had you set"
+        }, 
+        {
+            "confidence": 0.9973478, 
+            "entities": [
+                {
+                    "end": 47, 
+                    "entity": "Hier2::date", 
+                    "score": 0.999565065, 
+                    "start": 40, 
+                    "value": "tomorrow"
+                }, 
+                {
+                    "end": 55, 
+                    "entity": "Hier2::timeofday", 
+                    "score": 0.9970165, 
+                    "start": 49, 
+                    "value": "morning"
+                }
+            ], 
+            "intent": "alarm_query", 
+            "text": "check whether i have set any alarms for tomorrow morning"
+        }, 
+        {
+            "confidence": 0.99998, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "do i have alarms set"
+        }, 
+        {
+            "confidence": 0.9999881, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "what alarms i have set"
+        }, 
+        {
+            "confidence": 0.995928943, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "is there any alarm active"
+        }, 
+        {
+            "confidence": 0.996526539, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "when does my alarm go off"
+        }, 
+        {
+            "confidence": 0.9951941, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "how many alarms are currently set"
+        }, 
+        {
+            "confidence": 0.9982715, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "if there any alarm is set then let me know"
+        }, 
+        {
+            "confidence": 0.990035653, 
+            "entities": [
+                {
+                    "end": 43, 
+                    "entity": "Hier2::date", 
+                    "score": 0.999985456, 
+                    "start": 36, 
+                    "value": "tomorrow"
+                }, 
+                {
+                    "end": 34, 
+                    "entity": "Hier2::time", 
+                    "score": 0.9992418, 
+                    "start": 29, 
+                    "value": "six am"
+                }
+            ], 
+            "intent": "alarm_query", 
+            "text": "do i have any alarms set for six am tomorrow"
+        }, 
+        {
+            "confidence": 0.988434255, 
+            "entities": [], 
+            "intent": "alarm_query", 
+            "text": "how many alarms are currently on my phone"
+        }
+    ]
+}
