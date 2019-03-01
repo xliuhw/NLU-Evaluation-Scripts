@@ -36,6 +36,9 @@ the Python scripts for qeurying NLU Services/Platforms. The NLU data are provide
 
   pythonQueryServices/ : the python scripts to query each service.
 
+  pythonCalcCombinedMeasure/calcMicroAverage.py shows how we calculated the combined measurements for all intents and entities for each Service in the cross-validation.
+
+
 ### Requirements
 
    JDK 1.8
