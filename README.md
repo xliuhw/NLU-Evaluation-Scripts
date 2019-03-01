@@ -76,11 +76,14 @@ to e.g. merged.zip
 
   This will query your agent and get the predictions of the testsets, and save the results to
   testResults/APIAI/
+
   NB: This may not work any more as the Dialogflow Python API has been changed. New python API will be needed to query Dialogflow.
 
-   5. Evaluate the performance:
+   5. Evaluate the performance
+
    Manually modify the relevant parts in the method doEvaluation_Manually_Top() in Evaluation.java and
 Run the file Evaluation.java. 
+
 The results will be saved in evaluateResults/APIAI/
 
    NB the buffer file allGeneFileNames/allGeneFileNames.txt will be using for the shared information between different steps.
