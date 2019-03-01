@@ -1275,8 +1275,8 @@ public class PreprocessRealData {
         infoList.add("maxiNumUtt=" + maxiNumUtt);
         infoList.add("minNumUtt=" + minNumUtt);
         
-        System.out.print(" -----------only all ----");
-        System.out.print(this.OnlyIncludeIntents.toString());
+        //System.out.print(" -----------only all ----");
+        //System.out.print(this.OnlyIncludeIntents.toString());
         
         //List<String> exceptDomainIntents = new ArrayList<String>(Arrays.asList(this.FinalExceptIntents));        
         List<String> fileNames = null;
