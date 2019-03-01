@@ -62,8 +62,11 @@ to e.g. merged.zip
    Waiting for Dialogflow to finish training your agent.
 
   4. Test your agent using the generated testset in Step1
+
   cd pythonQueryServices/pythonApiai
+
   python queryApiai.py --testset default/specified --token YourClientToken
+
   This will query your agent and get the predictions of the testsets, and save the results to
   testResults/APIAI/
   NB: This may not work any more as the Dialogflow Python API has been changed. New python API will be needed to query Dialogflow.
