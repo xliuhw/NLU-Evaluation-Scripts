@@ -58,17 +58,14 @@ We used the mixed Java and Python scripts due to historical reasons. They should
   3. Import the trainset to the Service.
    First Zip the "merged" directory in preprocessResults/out4ApiaiReal/Apiai_trainset_TheNewlyGeneratedTimeStamp/
 to e.g. merged.zip
-
-  Log into your Dialogflow account, click "Create new agent", in your newly created agent page, click Export and Import/IMPORT FROM ZIP, select merged.zip created above.
+   Log into your Dialogflow account, click "Create new agent", in your newly created agent page, click Export and Import/IMPORT FROM ZIP, select merged.zip created above.
    Waiting for Dialogflow to finish training your agent.
 
   4. Test your agent using the generated testset in Step1
   cd pythonQueryServices/pythonApiai
   python queryApiai.py --testset default/specified --token YourClientToken
-
   This will query your agent and get the predictions of the testsets, and save the results to
   testResults/APIAI/
-
   NB: This may not work any more as the Dialogflow Python API has been changed. New python API will be needed to query Dialogflow.
 
    5. Evaluate the performance:
