@@ -48,17 +48,24 @@ the Python scripts for qeurying NLU Services/Platforms. The NLU data are provide
 We used the mixed Java and Python scripts due to historical reasons. They should have been done in one language! Anyway, here is the example procedures to use the scripts for evaluating Dialogflow (formerly Apiai). The procedures for other Services/Platforms are similar, please refer to their specific requirements.
 
   1. Generate the trainsets and testsets.
+
   Run the file PreprocessRealData.java (In Netbean 8.1, right-click the file, select Run File)
+
   It will load the config file resources/config/Config_DataPreprocess.txt where the annontated data file is specified and generate the datasets in autoGeneFromRealAnno/preprocessResults/
+
   The config file also specifies how many utterances to use from the whole annontated csv file as the train set. It is maxNumUtt (for each intent).
 
   2. Convert the datasets to the right format of the Service.
+
   Run PrepareApiaiCorpora.java, it will load the generated datasets in Step1 above, convert them to Dialogflow format. The results will be saved in preprocessResults/out4ApiaiReal/
 
   3. Import the trainset to the Service.
+
    First Zip the "merged" directory in preprocessResults/out4ApiaiReal/Apiai_trainset_TheNewlyGeneratedTimeStamp/
 to e.g. merged.zip
+
    Log into your Dialogflow account, click "Create new agent", in your newly created agent page, click Export and Import/IMPORT FROM ZIP, select merged.zip created above.
+
    Waiting for Dialogflow to finish training your agent.
 
   4. Test your agent using the generated testset in Step1
@@ -73,7 +80,8 @@ to e.g. merged.zip
 
    5. Evaluate the performance:
    Manually modify the relevant parts in the method doEvaluation_Manually_Top() in Evaluation.java and
-Run the file Evaluation.java. The results will be saved in evaluateResults/APIAI/
+Run the file Evaluation.java. 
+The results will be saved in evaluateResults/APIAI/
 
    NB the buffer file allGeneFileNames/allGeneFileNames.txt will be using for the shared information between different steps.
 
